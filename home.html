@@ -3,11 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
- 
-    
- 
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <h2 class="logo">FreshMart</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="auth">
+            <button onclick="window.location.href='login.html'">Login</button>
+            <button onclick="window.location.href='registration.html'">Register</button>
+        </div>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section class="hero">
+        <h1>Fresh Groceries Delivered to Your Door</h1>
+        <p>Organic • Fresh • Affordable</p>
+        <button class="shop-btn">Shop Now</button>
+    </section>
+
+    <!-- FEATURED SECTION -->
+    <section class="featured">
+        <h2>Popular Products</h2>
+
+        <div class="product-container">
+
+            <div class="card">
+                <img src="https://i.ibb.co/0mFPDhY/veggies.jpg" alt="Vegetables">
+                <h3>Fresh Vegetables</h3>
+                <p>Starting from ₹30</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/nLJY0sG/milk.jpg" alt="Milk">
+                <h3>Dairy Products</h3>
+                <p>Pure & Quality</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ibb.co/DYtP18t/fruits.jpg" alt="Fruits">
+                <h3>Fresh Fruits</h3>
+                <p>Healthy & Sweet</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>
