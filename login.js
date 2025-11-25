@@ -77,4 +77,7 @@ function login(){
 // })
 
 
-
+document.getElementById("btn").addEventListener("click",(e)=>{
+    e.preventDefault()
+    window.location.href="./home.html"
+})
