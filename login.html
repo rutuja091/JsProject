@@ -13,22 +13,26 @@
             <form action="" id="form">
                  <input type="text" placeholder="username" id="userInput"> <br> <br>
                   <p id="user-content"></p>
+
                  <article class="password-box">
-                 <input type="password" placeholder="password" id="passInput" > <br> <br>
-                <p id="pass-content"></p>
+                     <input type="password" placeholder="password" id="passInput"> <br> <br>
+                     <p id="pass-content"></p>
+                     <span id="eye-toggle">  &#128065 </span>  <br> <br>
+                 </article>
 
-                 <span id="eye-toggle">  &#128065 </span>  <br> <br>
+                <button type="button" onclick="login()" id="btn">Login</button>
 
-                </article>
-
-                <button  type="button" onclick="login()" id="btn">Login</button>
                 <p id="msg"></p>
-                 
+
+                <!-- ⭐ ADDED REGISTRATION LINK ⭐ -->
+                <p class="register-text">
+                    Don't have an account? 
+                    <a href="./registration.html" class="register-link">Register here</a>
+                </p>
 
             </form>
         </div>
     </section>
-
 
 <script src="./login.js"></script>
 </body>
