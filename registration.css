@@ -101,3 +101,23 @@
    top: 430px;
    left: 143px;
  }
+
+
+ .login-text {
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 100px;
+    font-size: 16px;
+    color: black;
+}
+
+.login-link {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
