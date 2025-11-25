@@ -1,0 +1,103 @@
+*{
+    margin:0%;
+    padding:0%;
+ }
+
+ .body{
+    height:100vh;
+    background:linear-gradient(90deg,blue,violet,purple);
+     display:flex;
+    justify-content: center;
+    align-items: center;
+ } 
+
+ .body .form-box{
+    height:520px;
+    width:450px;
+    background-color: white;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow:0 0 30px 10px gray;
+    position: relative;
+ }
+
+ .form-box h1{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+ }
+
+ .form-box input{
+    margin-left: 70px;
+    height:35px;
+    width:270px;
+    font-size:20px;
+    padding-left: 20px;
+ }
+
+ .form-box input:first-child{
+    margin-top:40px;
+ }
+
+ .form-box #emailInput{
+    margin-top: 17px;
+ }
+
+ .form-box #passInput{
+    margin-top: 17px;
+ }
+
+ .form-box .password-box{
+    position: relative;
+ }
+
+ .form-box .password-box span{
+    font-size: 35px;
+    position: absolute;
+    right:95px;
+    top:10px;
+ }
+
+ .form-box button{
+    position:relative;
+    top:40px;
+    left:150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    background-color: purple;
+    color:white;
+    font-weight:900;
+    padding:12px 44px;
+ }
+
+ .User, .Email, .Pass{
+   outline: 2px solid green;
+   border:none;
+   border-radius: 10px;
+ }
+
+ .UC, .EC, .PC{
+   position: absolute;
+   left: 70px;
+   font-size: 12px;
+   color: red;
+ }
+
+ .UC{
+   top:125px;
+ }
+
+ .EC{
+   top:195px;
+ }
+
+ .PC{
+   top:265px;
+ }
+
+ .msg{
+   position: absolute;
+   top: 430px;
+   left: 143px;
+ }
